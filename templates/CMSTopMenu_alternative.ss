@@ -20,3 +20,10 @@
 		<% end_if %>
 	<% end_control %>
 </ul>
+<% if SubsiteList %>
+<form id="SubsiteActions">
+	<fieldset>
+		$SubsiteList
+	</fieldset>
+</form>	
+<% end_if %>

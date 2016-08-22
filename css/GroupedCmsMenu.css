@@ -30,7 +30,7 @@
 	background: -webkit-linear-gradient(top,  #e8eff9 0%,#ccdef3 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom,  #e8eff9 0%,#ccdef3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8eff9', endColorstr='#ccdef3',GradientType=0 ); /* IE6-9 */
-	
+	animation-name: none;
 }
 
 

@@ -22,6 +22,7 @@ class GroupedCmsMenu extends LeftAndMainDecorator {
 		Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery.js');
 		Requirements::javascript('groupedcmsmenu/javascript/GroupedCmsMenu.js');
 		Requirements::css('groupedcmsmenu/css/GroupedCmsMenu.css');
+		Requirements::css('pet-pack/css/font-awesome.min.css');
 	}
 
 	/**

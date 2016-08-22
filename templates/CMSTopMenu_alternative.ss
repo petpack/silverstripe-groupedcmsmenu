@@ -8,7 +8,7 @@
 	<% control GroupedMainMenu %>
 		<% if Children %>
 			<li class="$LinkingMode children">
-				<a href="$Link" class="group">$Group</a>
+				<a href="$Link" class="group">$Group<i class="fa fa-caret-down" aria-hidden="true"></i></a>
 				<ul>
 					<% control Children %>
 						<li class="$LinkingMode" id="Menu-$Code"><a href="$Link">$Title</a></li>

@@ -37,7 +37,7 @@
 #top #MainMenu li ul {
 	position: absolute;
 	z-index: 1000;
-	margin-top: 33px;
+	margin-top: 33px !important; /* important because jquery slidedown tries to animate it */
 	border: none;
 	margin-left: -1px;
 	box-shadow: 0 5px 5px #1576AB;

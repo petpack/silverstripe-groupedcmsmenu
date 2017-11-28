@@ -21,9 +21,13 @@
 	<% end_control %>
 </ul>
 <% if SubsiteList %>
+<div>
 <form id="SubsiteActions">
-	<fieldset>
-		$SubsiteList
-	</fieldset>
-</form>	
+	<input type="text" id="SubsiteSearch" />
+	<div class="filters">
+		$SubsiteFilters
+	</div>
+	$SubsiteList
+</form>
+</div>	
 <% end_if %>

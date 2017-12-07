@@ -23,7 +23,8 @@
 <% if SubsiteList %>
 <div>
 <form id="SubsiteActions">
-	<input type="text" id="SubsiteSearch" />
+	<input type="text" id="SubsiteSearch" value="$CurrentSubsiteTitle" />
+	<input type="hidden" id="SubsiteID" value="$CurrentSubsiteID" />
 	<div class="filters">
 		$SubsiteFilters
 	</div>

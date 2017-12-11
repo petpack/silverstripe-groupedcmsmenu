@@ -29,6 +29,7 @@
 		$SubsiteFilters
 	</div>
 	$SubsiteList
+	<div class="icon fa fa-caret-down"></div>
 </form>
 </div>	
 <% end_if %>

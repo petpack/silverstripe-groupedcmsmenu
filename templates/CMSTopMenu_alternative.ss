@@ -24,12 +24,12 @@
 <div>
 <form id="SubsiteActions">
 	<input type="text" id="SubsiteSearch" value="$CurrentSubsiteTitle" />
-	<input type="hidden" id="SubsiteID" value="$CurrentSubsiteID" />
+	<input type="hidden" id="SubsiteID" value="$CurrentSubsiteID" data-title="$CurrentSubsiteTitle"/>
 	<div class="filters">
 		$SubsiteFilters
 	</div>
 	$SubsiteList
-	<div class="icon fa fa-caret-down"></div>
+	<div class="icons"><div class="caret fa fa-caret-down"></div></div>
 </form>
 </div>	
 <% end_if %>
